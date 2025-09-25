@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Manya Sharma — Creative Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Manya Sharma — B.Tech CSE. Brand & Digital Marketing Intern at Mastmelon. Projects: Evolock, Instagram Analysis, Hackathon."/>
+</head>
+<body>
+
+  <nav class="dot-nav" aria-label="Section navigation">
+    <button data-target="hero" class="active" aria-label="Go to top"></button>
+    <button data-target="about" aria-label="About"></button>
+    <button data-target="experience" aria-label="Experience"></button>
+    <button data-target="projects" aria-label="Projects"></button>
+    <button data-target="skills" aria-label="Skills"></button>
+    <button data-target="contact" aria-label="Contact"></button>
+  </nav>
+
+  <main class="site" id="site">
+
+    <section id="hero">
+      <div class="card hero wide">
+        <div class="hero-left">
+          <div class="avatar" role="img" aria-label="Profile photo">
+            <img src="assets/profile.png" alt="Manya Sharma profile photo" loading="lazy"/>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <h1 class="name">Manya Sharma</h1>
+          <div class="tagline">B.Tech CSE • Brand Strategist • Cybersecurity Enthusiast</div>
+          <p class="hero-summary">
+            I blend data-driven marketing with a security-first mindset to build digital experiences that are not only engaging but also trustworthy and secure.
+          </p>
+          <div class="hero-cta">
+            <a class="btn primary" href="assets/resume.pdf" download><i class="fa-solid fa-download"></i> Download Resume</a>
+            <a class="btn" href="https://github.com/manya13" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a class="btn" href="https://linkedin.com/in/manya13" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a class="btn" href="https://instagram.com/manya_013_" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="card wide">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="about-card about-bio">
+                <i class="fa-solid fa-user-astronaut"></i>
+                <h3>Bio</h3>
+                <p>A final-year B.Tech CSE student at JUIT (CGPA: 7.12), I thrive at the intersection of technology, marketing, and security. My goal is to translate complex data into clear, actionable strategies that drive growth and protect users.</p>
+            </div>
+            <div class="about-card about-mission">
+                <i class="fa-solid fa-rocket"></i>
+                <h3>Mission</h3>
+                <p>To build user-first products and campaigns that are secure-by-design. I believe the best digital experiences are both delightful to use and fundamentally safe.</p>
+            </div>
+            <div class="about-card about-focus">
+                <i class="fa-solid fa-crosshairs"></i>
+                <h3>Focus Areas</h3>
+                <ul>
+                    <li>Brand & Influencer Marketing</li>
+                    <li>Data Analysis & Visualization</li>
+                    <li>Web & Application Security</li>
+                    <li>UX & Product Prototyping</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="card wide">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline full">
+          <article class="timeline-item">
+            <h3><i class="fa-solid fa-leaf"></i> Mastmelon Global — Brand & Digital Marketing Intern</h3>
+            <div class="meta">March 2025 — Present • Remote</div>
+            <ul>
+              <li>Executed end-to-end influencer campaigns, boosting engagement metrics by 15% through data-driven creator selection.</li>
+              <li>Authored SEO-aligned website copy and managed the content calendar, contributing to a 10% increase in organic traffic.</li>
+              <li>Developed weekly analytics dashboards (Google Analytics, Sheets) to guide budget allocation and optimize campaign performance.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <h3><i class="fa-solid fa-shield-halved"></i> DRDO — Advanced Cybersecurity Intern</h3>
+            <div class="meta">June 2025 — July 2025</div>
+            <ul>
+              <li>Conducted vulnerability assessments on web applications, identifying and documenting critical security flaws.</li>
+              <li>Authored detailed remediation reports with actionable recommendations for development teams, improving security posture.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <h3><i class="fa-solid fa-chart-simple"></i> DRDO — Cybersecurity & Data Analysis Intern</h3>
+            <div class="meta">June 2024 — July 2024</div>
+            <ul>
+              <li>Analyzed security logs to create dashboards visualizing common attack vectors and patterns.</li>
+              <li>Contributed to creating training materials on secure coding practices for internal workshops.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="card wide">
+        <h2 class="section-title">Selected Projects</h2>
+        <div class="projects-grid" id="projectsGrid">
+          <div class="project-card" tabindex="0"
+               data-title="Instagram Data Analysis for Optimization"
+               data-desc="Analyzed a large dataset of Instagram engagement metrics using SQL and Excel. I identified key patterns in post timings, content types, and audience segments, delivering a recommendation playbook that improved engagement for pilot campaigns."
+               data-github="https://github.com/manya13/insta-analysis"
+               data-live="#">
+            <div class="project-icon"><i class="fa-brands fa-instagram"></i></div>
+            <h4>Instagram Data Analysis</h4>
+            <p class="project-meta">SQL • Excel • Analytics</p>
+          </div>
+          <div class="project-card" tabindex="0"
+               data-title="Evolock — Secure Packaging Box"
+               data-desc="An IoT-enabled, tamper-evident packaging system. Built with Arduino sensors, it features an OTP-based unlock flow and a responsive front-end to monitor deliveries. I led end-to-end prototyping and UX design for the mobile delivery flow."
+               data-github="https://github.com/manya13/evolock"
+               data-live="#">
+            <div class="project-icon"><i class="fa-solid fa-box-archive"></i></div>
+            <h4>Evolock</h4>
+            <p class="project-meta">IoT • Arduino • UX</p>
+          </div>
+          <div class="project-card" tabindex="0"
+               data-title="Hack-a-Care — Accessibility Prototype (2nd Place)"
+               data-desc="Developed an accessible interface combined with low-cost sensors to assist users with mobility constraints. My role focused on product flow, creating the prototype demo, and delivering the pitch. We secured 2nd place in the hackathon."
+               data-github="https://github.com/manya13/hack-a-care"
+               data-live="#">
+            <div class="project-icon"><i class="fa-solid fa-award"></i></div>
+            <h4>Hack-a-Care (2nd Place)</h4>
+            <p class="project-meta">Prototype • Pitch • UI/UX</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="card wide two-col">
+        <div>
+          <h2 class="section-title">Core Skills</h2>
+          <p class="lead">My technical and strategic toolkit for building great products.</p>
+          <div class="skills-wrap" id="skillsWrap">
+            <div class="skill" data-name="Marketing Strategy" data-value="95"></div>
+            <div class="skill" data-name="Data Analysis" data-value="92"></div>
+            <div class="skill" data-name="Cybersecurity" data-value="75"></div>
+            <div class="skill" data-name="Problem Solving" data-value="88"></div>
+            <div class="skill" data-name="UI/UX Design" data-value="70"></div>
+          </div>
+        </div>
+        <div>
+          <h3 class="section-title"><i class="fa-solid fa-certificate"></i> Certs & Achievements</h3>
+          <ul class="achievements">
+            <li>McKinsey Forward Program (2025)</li>
+            <li>Deloitte Data Analytics — Forage (2025)</li>
+            <li>Google Cloud: Intro to Generative AI (2024)</li>
+            <li>Hack-a-Care — 2nd Place (2024)</li>
+            <li>Smart India Hackathon — Semifinalist (2024)</li>
+          </ul>
+          <h3 class="section-title" style="margin-top:1.5rem;"><i class="fa-solid fa-people-group"></i> Leadership</h3>
+          <ul>
+            <li>Student Coordinator — Procurement & Event Committee, JUIT</li>
+            <li>Senior Member — Disciplinary Committee</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="card wide contact-card-wrap">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="lead">I'm currently seeking new opportunities and collaborations. Let's connect!</p>
+        <div class="contact-grid">
+          <div class="contact-box">
+            <strong>Email</strong>
+            <div class="contact-row">
+              <span id="emailText">iammanya2k4@gmail.com</span>
+              <button class="btn" id="copyEmailBtn" title="Copy email"><i class="fa-regular fa-copy"></i> Copy</button>
+            </div>
+          </div>
+          <div class="contact-box">
+            <strong>Profiles</strong>
+            <div class="profile-links">
+              <a class="btn" href="https://instagram.com/manya_013_" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+              <a class="btn" href="https://linkedin.com/in/manya13" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+              <a class="btn" href="https://github.com/manya13" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="modal" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card" id="modalCard">
+      <button class="modal-close" id="modalClose" aria-label="Close project details">&times;</button>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <div class="modal-links">
+        <a class="btn" id="modalGithub" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> View Code</a>
+        <a class="btn" id="modalLive" href="#" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
